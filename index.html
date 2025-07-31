@@ -16,12 +16,12 @@
                 <span class="iconify icon" data-icon="healthicons:drone-outline"></span>
                 <p class="logo-text">Skynet Eats</p>
             </div>
-            <div class="nav-links">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Contact</a>
-                <a class="nav-link" href="#">Sign up</a>
-            </div>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="#">About</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
+                <li><a class="nav-link" href="#">Sign up</a></li>
+            </ul>
         </nav>
         
         <!-- Main content -->
@@ -80,7 +80,7 @@
                     <input class="input" id="name" type="text" placeholder="Ariana Regular" />
                     <label for="email">Email</label>
                     <input class="input" id="email" type="email" placeholder="ariana.regular@gmail.com" />
-                    <button class="submit-button" onclick="submitForm()">Notify me</button>
+                    <button class="submit-button" type="button" onclick="submitForm()">Notify me</button>
                 </form>
             </section>
             
@@ -88,24 +88,33 @@
         
         <!-- Footer -->
         <footer class="footer">
-            <div class="social-links">
-                <a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-facebook"></ion-icon>
-                    <p>Facebook</p>
-                </a>
-                <a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-instagram"></ion-icon>
-                    <p>Instagram</p>
-                </a>
-                <a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-linkedin"></ion-icon>
-                    <p>LinkedIn</p>
-                </a>
-                <a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-twitter"></ion-icon>
-                    <p>Twitter</p>
-                </a>
-            </div>
+            <ul class="social-links">
+                <li>
+                    <a class="social-link" href="#">
+                        <ion-icon class="icon" name="logo-facebook"></ion-icon>
+                        <p>Facebook</p>
+                    </a>
+                </li>
+                
+                <li>
+                    <a class="social-link" href="#">
+                        <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                        <p>Instagram</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-link" href="#">
+                        <ion-icon class="icon" name="logo-linkedin"></ion-icon>
+                        <p>LinkedIn</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-link" href="#">
+                        <ion-icon class="icon" name="logo-twitter"></ion-icon>
+                        <p>Twitter</p>
+                    </a>
+                </li>
+            </ul>
         </footer>
         
         <script src="index.pack.js"></script>
